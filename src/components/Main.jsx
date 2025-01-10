@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import image0001 from '../assets/images/image0001.jpg'
+import image0001 from '../assets/images/image011.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import {FaTwitter,FaFacebook,FaInstagram,FaLinkedinIn} from 'react-icons/fa'
 const Main = () => {
