@@ -9,8 +9,8 @@ import noDirt002 from '../assets/images/noDirt002.jpg'
 import outPet from '../assets/images/outdoorPet.jpg'
 const Projects = () => {
   return  (
-    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 py-16 bg-gray-600 text-yellow-600'>
-      <h1 className='text-4xl font-bold text-center text-yellow-600'>Projects</h1>
+    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 py-16 bg-gray-200 text-blue-600'>
+      <h1 className='text-4xl font-bold text-center text-blue-600'>Projects</h1>
       <p className='text-center py-8'>Here are some of my recent projects that I have worked on in the past year. Each example has a hover effect that gives a brief description and a link to the finished project.</p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={app001} title='Web-App design' />
