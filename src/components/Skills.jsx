@@ -16,10 +16,10 @@ import reactIcon from '../assets/iconPNG/react.png'
 
 const Skills = () => {
   return  (
-    <div id='skills' className='max-w-[1040px] m-auto md:pl-20 py-20 bg-gray-600'>
-      <h1 className='text-4xl font-bold text-center text-stone'>Skills</h1>
-      <p className='text-center py-8'>Frameworks and languages</p>
-      <div className='grid sm:grid-cols-2 gap-12'>
+    <div id='skills' className='max-w-[1040px] m-auto md:pl-20 py-20'>
+      <h1 className='text-6xl font-bold text-center text-blue-900 '>Skills</h1>
+      <p className='text-4xl text-blue-300 py-9'>Frameworks and languages</p>
+      <div className='grid sm:grid-cols-2 gap-16'>
         <SkillsItem img={htmlIcon} title='Markup' />
         <SkillsItem img={cssIcon} title='stylesheet' />
         <SkillsItem img={jsIcon} title='interactivity' />
@@ -27,8 +27,8 @@ const Skills = () => {
         <SkillsItem img={kotlinIcon} title='Newest Cross-platform language' />
         <SkillsItem img={mySQLIcon} title='Database Design' />
       </div>
-      <p className='text-center py-8'>Cloud and Tools</p>
-      <div className='grid sm:grid-cols-2 gap-12'>
+      <p className=' text-4xl text-blue-300 py-9'>Cloud and Tools</p>
+      <div className='grid sm:grid-cols-2 gap-16'>
         <SkillsItem img={digitalOceanIcon} title='Cloud Service for Deployment' />
         <SkillsItem img={dockerIcon} title='Containers' />
         <SkillsItem img={herokuIcon} title='Cloud services' />

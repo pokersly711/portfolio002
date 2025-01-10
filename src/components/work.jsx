@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import WorkItem from './WorkItem'
 
@@ -31,7 +32,7 @@ const data = [
   const Work = () => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-8 bg-gray-400'>
-      <h1 className='text-4xl font-bold text-center text-stone p-8'>Work</h1>
+      <h1 className='text-4xl font-bold text-center text-blue-600 p-8'>Work</h1>
       {data.map((item, idx) => (
         <WorkItem
         key={idx}
@@ -44,4 +45,4 @@ const data = [
   );
 };
 
-export default Work
+export default Work;

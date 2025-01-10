@@ -17,7 +17,7 @@ const Sidenav = () => {
       {nav ? (
         <div className="fixed w-90% left-30% h-screen bg-stone/70 flex flex-col justify-center items-center z-20">
           <a onClick={handleNav} href="#main"
-            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-orange-600 shadow5-400 m-4 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-blue-400 shadow-900 m-4 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             role="button"
           >
             <span>
@@ -30,7 +30,7 @@ const Sidenav = () => {
          
 
              <a onClick={handleNav} href="#skills"
-            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-orange-600 shadow-400 m-4 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-blue-400 shadow-900 m-4 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             role="button"
           >
             <span>
@@ -41,7 +41,7 @@ const Sidenav = () => {
             </span>
           </a>
           <a onClick={handleNav} href="#work"
-            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-orange-600 shadow-black-400 m-4 p-1 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-blue-400 shadow-black-900 m-4 p-1 cursor-pointer hover:scale-110 ease-in duration-200"
             role="button">
             <span>
               <div className="flex justify-center items-center">
@@ -52,7 +52,7 @@ const Sidenav = () => {
           </a>
          
           <a onClick={handleNav} href="#projects"
-            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-orange-600 shadow-400 m-4 p-1 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="btn btn-primary w-[100%] flex justify-center items-center rounded-full shadow-lg bg-blue-400 shadow-900 m-4 p-1 cursor-pointer hover:scale-110 ease-in duration-200"
             role="button">
             <span>
               <div className="flex justify-center items-center">
@@ -63,7 +63,7 @@ const Sidenav = () => {
           </a>
           
           <a onClick={handleNav}href="#contact"
-            className="btn btn-primary w-[100%] flex justify-center items-center  rounded-full shadow-lg bg-orange-600 shadow-400 m-4 p-1 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="btn btn-primary w-[100%] flex justify-center items-center  rounded-full shadow-lg bg-blue-400 shadow-900 m-4 p-1 cursor-pointer hover:scale-110 ease-in duration-200"
             role="button"
           >
             <span>
@@ -80,19 +80,19 @@ const Sidenav = () => {
     )}
       <div className='md:block hidden fixed top-[25%] z-10'>
         <div className='flex flex-col'>
-          <a href='#main' className='rounded-full shadow-lg bg-orange-500 shadow-orange-300 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          <a href='#main' className='rounded-full shadow-lg bg-blue-400 shadow-blue-900 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineHome size={20} />
           </a>
-          <a href='#skills' className='rounded-full shadow-lg bg-orange-500 shadow-orange-300 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          <a href='#skills' className='rounded-full shadow-lg bg-blue-400 shadow-blue-900  m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineProject size={20} />
           </a>
-          <a href='#work' className='rounded-full shadow-lg bg-orange-500 shadow-orange-300 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          <a href='#work' className='rounded-full shadow-lg bg-blue-400 shadow-blue-900  m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineProject size={20} />
           </a>
-          <a href='#about' className='rounded-full shadow-lg bg-orange-500 shadow-orange-300 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          <a href='#about' className='rounded-full shadow-lg bg-blue-400 shadow-blue-900  m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <BsPerson size={20} />
           </a>
-          <a href='#contact' className='rounded-full shadow-lg bg-orange-500 shadow-orange-300 m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          <a href='#contact' className='rounded-full shadow-lg bg-blue-400 shadow-blue-900  m-4 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineMail size={20} />
           </a>
         </div>
